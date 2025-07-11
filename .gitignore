@@ -1,0 +1,71 @@
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# macOS resource forks
+Icon?
+._*
+
+# VSCode settings folder
+.vscode/
+
+# Python virtual environments
+venv/
+ENV/
+env/
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Pytest cache
+.pytest_cache/
+
+# mypy cache
+.mypy_cache/
+
+# PEP 582; used by some tools for local package installs
+__pypackages__/
+
+# Coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# Logs
+*.log
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Local env files (if you use dotenv)
+.env
+.env.*
+
+# Snowflake credentials (if you save them locally)
+*.snowflake*
+
+# Editor-specific files
+*.sublime-workspace
+*.sublime-project
+
+# VSCode extensions
+.history/
+
+# Backup files
+*.bak
+
+# Python egg info
+*.egg-info/
+dist/
+build/
+
+# OS trash
+.Trashes
